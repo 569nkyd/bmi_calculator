@@ -109,13 +109,13 @@ class _MyHomePageState extends State<MyHomePage> {
                     var msg = "";
 
                     if(bmi>25){
-                      msg = "you are over weight";
+                      msg = "You are over weight";
                       bgcolor = Colors.orange.shade200;
                     } else if(bmi<18){
-                      msg = 'you are under weight';
+                      msg = 'You are under weight';
                       bgcolor= Colors.red.shade200;
                     } else {
-                      msg ="you are healtyyyy";
+                      msg ="You are healty";
                       bgcolor = Colors.green.shade200;
                     }
 
