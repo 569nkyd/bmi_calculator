@@ -91,7 +91,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                   keyboardType: TextInputType.number,
                 ),
-                SizedBox(height: 18),
+                SizedBox(height: 19),
                 ElevatedButton(onPressed: (){
                   var wt = wtController.text.toString();
                   var ft = ftController.text.toString();
