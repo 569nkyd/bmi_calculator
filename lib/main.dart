@@ -115,7 +115,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       msg = 'You are under weight';
                       bgcolor= Colors.red.shade200;
                     } else {
-                      msg ="You are healty";
+                      msg ="You are healthy";
                       bgcolor = Colors.green.shade200;
                     }
 
